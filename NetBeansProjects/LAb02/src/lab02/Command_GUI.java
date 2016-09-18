@@ -52,13 +52,6 @@ public class Command_GUI extends JFrame  {
                 String output = obj.executeCommand(command);
                 
                 output1.append(output);
-
-//                EmptyLoop empty = new EmptyLoop(Integer.parseInt(data));
-//                empty.itereate_loop();
-
-//                for (int i = 0; i < Integer.parseInt(data); i++) {
-//                    output01.append(String.valueOf(i));
-//                }
             }
         });
     
